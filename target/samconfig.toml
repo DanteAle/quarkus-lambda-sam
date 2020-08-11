@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "quarkus-lambda-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1vn3r48bmsudi"
+s3_prefix = "quarkus-lambda-sam"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
